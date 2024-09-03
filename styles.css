@@ -1,0 +1,15 @@
+body {
+    display: flex;                  /* Use flexbox for centering */
+    justify-content: center;        /* Center horizontally */
+    align-items: center;            /* Center vertically */
+    height: 100vh;                  /* Full viewport height */
+    margin: 0;                      /* Remove default margin */
+    background-color: #f0f0f0;     /* Optional: Set a background color */
+}
+
+img {
+    max-width: 90%;                 /* Resize the image to fit within 90% of the viewport */
+    height: auto;                   /* Maintain aspect ratio */
+    border: 2px solid #ccc;         /* Optional: Add a border around the image */
+    border-radius: 8px;             /* Optional: Add rounded corners */
+}

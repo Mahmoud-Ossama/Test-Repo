@@ -16,7 +16,7 @@ x_new = np.array([[0], [2]])
 y_predict = model.predict(x_new)
 
 # Plot the results
-plt.figure(figsize=(10, 5), facecolor='lightgray')  # Set figure size and background color
+plt.figure(figsize=(4, 2), facecolor='lightgray')  # Set figure size and background color
 plt.scatter(x, y)
 plt.plot(x_new, y_predict, color='red', linewidth=2)
 plt.title('Linear Regression Example')
